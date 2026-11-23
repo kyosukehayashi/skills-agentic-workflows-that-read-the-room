@@ -27,6 +27,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 engine:
   id: copilot
   copilot-sdk: true
@@ -42,6 +43,7 @@ engine:
 2. `web-fetch` で次の公式情報源を取得してください。
    - GitHub Blog: https://github.blog/latest/
    - GitHub Changelog: https://github.blog/changelog/
+   - Awesome Copilot workflows: https://awesome-copilot.github.com/workflows/
    外部の公開ガイドや、掲載内容を裏付ける記事を読む場合も `web-fetch` を使ってください。
 3. 各一覧で確認できる直近の情報から、掲載済みの内容と重複しない、開発者に役立つ更新を選んでください。
    Mona のメモに従い、短く実用的にまとめ、元の記事へのリンクと、どの情報源に基づく内容かを明記してください。
